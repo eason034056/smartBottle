@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1350px;
+  position: relative;
+}
+
+.circle,
+.home img {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.home h1 {
+  position: relative;
+  left: -50%;
+}
+
+.home img {
+  height: 800px;
+  z-index: 1010;
+}
+
+.health {
+  font-size: 7rem;
+  color: #41644a;
+  z-index: 1020;
+}
+
+#health-span {
+  font-size: 2rem;
+  display: block;
+  z-index: 1020;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #e86a33;
+  box-shadow: 5px 5px 10px black;
+}
+
+@keyframes slideInOut {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* 當頁面滑出時的動畫 */
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

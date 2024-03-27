@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smartBottle/static/css/main.95c17cae.css",
+    "main.js": "/smartBottle/static/js/main.5db1aa24.js",
+    "index.html": "/smartBottle/index.html",
+    "main.95c17cae.css.map": "/smartBottle/static/css/main.95c17cae.css.map",
+    "main.5db1aa24.js.map": "/smartBottle/static/js/main.5db1aa24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95c17cae.css",
+    "static/js/main.5db1aa24.js"
+  ]
+}

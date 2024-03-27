@@ -1,0 +1,177 @@
+.needfinding-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  color: #41644a;
+  padding: 8rem 0rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+section {
+  display: flex;
+  width: 80%;
+  max-width: 1350px;
+  justify-content: space-between;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.section1-left {
+  flex: 3;
+}
+
+.section1-right {
+  flex: 1;
+}
+
+.section1-left h1 {
+  padding-left: 10px;
+  font-size: 5rem;
+}
+
+.section1-left ul li {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section1-right img {
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 300px;
+}
+
+.section2-left {
+  padding-top: 20px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.section2-right {
+  padding-top: 20px;
+  flex: 3;
+  font-weight: bold;
+}
+
+.section2-right li {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+.green {
+  background-color: #41644a;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  gap: 0px;
+}
+
+.section3-left,
+.section3-right {
+  padding-top: 5rem;
+  flex: 1;
+}
+
+.section3-right {
+  text-align: right;
+}
+
+.section3-left h1 {
+  font-size: 3rem;
+}
+
+.section3-left p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section3-right img,
+.section4-left img {
+  width: 300px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.section4-left,
+.section4-right {
+  flex: 1;
+}
+
+.section4-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section4-right h1 {
+  font-size: 3rem;
+}
+
+.section4-right li {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+.section4-left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+.section3-right img:hover,
+.section4-left img:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.orange {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  background-color: #e86a33;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  gap: 0px;
+}
+
+.empathy-map-button {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #41644a;
+  margin: 20px 0px;
+}
+
+.orange a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.empathy-map-button:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 600px) {
+  .section1-right {
+    display: none;
+  }
+
+  section {
+    display: block;
+    gap: 0;
+    width: 95%;
+  }
+
+  .section4-left img {
+    width: 250px;
+  }
+}
