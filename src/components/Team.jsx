@@ -1,9 +1,17 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useInView } from "react-intersection-observer";
 import { useSpring, animated } from "react-spring";
 import "../Team.css";
 
 const TeamMember = ({ delay, children }) => {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: 0.5,

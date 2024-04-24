@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useSpring, animated } from "react-spring";
 import About from "./About";
 import "../Home.css";
@@ -16,6 +16,14 @@ const Home = () => {
     delay: 500,
     config: { duration: 1000 },
   });
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
 
   return (
     <div className="big-container">
