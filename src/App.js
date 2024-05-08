@@ -9,6 +9,7 @@ import Needfinding from "./Needfinding";
 import ConceptVideo from "./ConceptVideo";
 import VideoStoryboard from "./VideoStoryboard";
 import Pov from "./Pov.jsx";
+import LofiPrototype from "./LofiPrototype";
 import "./styles.css";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/documents" element={<Documents />} />
           <Route path="/needfinding" element={<Needfinding />} />
           <Route path="/pov-and-experience-prototypes" element={<Pov />} />
+          <Route path="/lofi-prototype" element={<LofiPrototype />} />
         </Routes>
       </div>
     </HashRouter>

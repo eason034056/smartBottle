@@ -11,7 +11,7 @@ const categories = [
   },
   {
     name: "Low-Fidelity Prototype & Test",
-    to: "/low-fi",
+    to: "/lofi-prototype",
   },
   {
     name: "Medium-fi Prototype",

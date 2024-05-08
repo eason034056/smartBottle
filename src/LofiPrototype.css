@@ -1,0 +1,85 @@
+.lofi-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    align-items: center;
+    width: 70%;
+    max-width: 900px;
+    height: 100vh;
+    color: #41644a;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .lofi-container h1 {
+    font-size: 3rem;
+  }
+
+  .lofi-container h2 {
+    font-size: 2rem;
+  }
+
+  .lofi-container p {
+    font-size: 1.5rem;
+  }
+
+  .lofi-container img {
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .lofi-container iframe {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .procedure-div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .prototyping-video-div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .prototype-task-div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .task-details {
+    width: 100%;
+  }
+
+  .task-toggle-button {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #41644a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .task-toggle-button:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background-color: #e86a33;
+  }
+
+  .additional-details {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #e86a33;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 100px;
+  }
