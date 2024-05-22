@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./LofiPrototype.css";
 
+
 const LofiPrototype = () => {
   // 狀態變量用於控制額外資訊的顯示與隱藏
   const [showDetails, setShowDetails] = useState({
@@ -35,7 +36,7 @@ const LofiPrototype = () => {
         <div className="prototyping-video-div">
             <h1>Lo-Fi Prototyping Video</h1>
             <iframe width="700" height="500" src="https://www.youtube.com/embed/hH8MQSusg44?si=J_4swXFyppy8Rs_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            {/* video */}
+            
         </div>
         <div className="prototype-task-div">
             <h1>測試任務與情境</h1>
@@ -49,7 +50,7 @@ const LofiPrototype = () => {
             <h2>Task 1</h2>
             <p>情境: 剛使用智能水壺喝完水後</p>
             <p>任務: 請在使用智能水壺喝水之後，進入app幫我看一下你今天喝了多少毫升的水、拿到了什麼獎勵以及連續幾天完成喝水目標。</p>
-            <img src="https://media.discordapp.net/attachments/1122937314671329452/1237759208590540891/1_0.png?ex=663cd097&is=663b7f17&hm=d1f277b2c37183395bb66637083b2bfb6b6e29abf22657115c070b370e72dcbf&=&format=webp&quality=lossless&width=653&height=490" alt="Task Illustration" />
+            <img src={`${process.env.PUBLIC_URL}/pictures/task1.png`} alt="Task Illustration" />
             <div className="task-toggle-button" onClick={() => toggleShowDetails('task1')}>
                 {showDetails.task1 ? "關閉查看" : "查看測試結果"}
             </div>
@@ -68,7 +69,8 @@ const LofiPrototype = () => {
             <h2>Task 2</h2>
             <p>情境: 在飲用 普通水壺的水/手搖杯/湯品 後</p>
             <p>任務: 請你手動紀錄200毫升的飲水量</p>
-            <img src="https://media.discordapp.net/attachments/1122937314671329452/1237759208967897178/2_0.png?ex=663cd097&is=663b7f17&hm=18aec311a24a045582151951b7cb7fc42f1168de0930a1bd3f27d8019d5523eb&=&format=webp&quality=lossless&width=653&height=490" alt="Task Illustration" />
+            <img src={`${process.env.PUBLIC_URL}/pictures/task2.png`} alt="Task Illustration" />
+
             <div className="task-toggle-button" onClick={() => toggleShowDetails('task2')}>
                 {showDetails.task2 ? "關閉查看" : "查看測試結果"}
             </div>
@@ -85,7 +87,7 @@ const LofiPrototype = () => {
             <h2>Task 3</h2>
             <p>情境: 首次下載Water Buddy App</p>
             <p>任務: 請你打開APP完成註冊</p>
-            <img src="https://media.discordapp.net/attachments/1122937314671329452/1237759209374875678/3_0.png?ex=663cd097&is=663b7f17&hm=53f123bbe251d143981ca2906e6aac52e68ac1f3d98a165ca74862c490ccad17&=&format=webp&quality=lossless&width=653&height=490" alt="Task Illustration" />
+            <img src={`${process.env.PUBLIC_URL}/pictures/task3.png`} alt="Task Illustration" />
             <div className="task-toggle-button" onClick={() => toggleShowDetails('task3')}>
                 {showDetails.task3 ? "關閉查看" : "查看測試結果"}
             </div>
@@ -102,7 +104,7 @@ const LofiPrototype = () => {
             <h2>Task 4</h2>
             <p>情境: 得到足夠金錢後，進入虛擬寵物頁面</p>
             <p>任務: 請幫我在遊戲介面中購買貓跳台，並將貓跳台放在沙發的後面</p>
-            <img src="https://media.discordapp.net/attachments/1122937314671329452/1237759209949626478/4_0.png?ex=663cd098&is=663b7f18&hm=6f2aa425978f07446574c3983d85fbadbacaa33a7a496abe6ab22042ad03b323&=&format=webp&quality=lossless&width=653&height=490" alt="Task Illustration" />
+            <img src={`${process.env.PUBLIC_URL}/pictures/task4.png`} alt="Task Illustration" />
             <div className="task-toggle-button" onClick={() => toggleShowDetails('task4')}>
                 {showDetails.task4 ? "關閉查看" : "查看測試結果"}
             </div>

@@ -10,6 +10,7 @@ import ConceptVideo from "./ConceptVideo";
 import VideoStoryboard from "./VideoStoryboard";
 import Pov from "./Pov.jsx";
 import LofiPrototype from "./LofiPrototype";
+import MidfiPrototype from "./MidfiPrototype"
 import "./styles.css";
 
 const App = () => {
@@ -28,6 +29,8 @@ const App = () => {
           <Route path="/needfinding" element={<Needfinding />} />
           <Route path="/pov-and-experience-prototypes" element={<Pov />} />
           <Route path="/lofi-prototype" element={<LofiPrototype />} />
+          <Route path="/midfi-prototype" element={<MidfiPrototype />} />
+
         </Routes>
       </div>
     </HashRouter>

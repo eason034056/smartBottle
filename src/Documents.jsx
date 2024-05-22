@@ -15,7 +15,7 @@ const categories = [
   },
   {
     name: "Medium-fi Prototype",
-    to: "/mid-fi",
+    to: "/midfi-prototype",
   },
   {
     name: "Heuristic Evaluation",
