@@ -1,0 +1,96 @@
+.heuristic-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    align-items: center;
+    width: 70%;
+    max-width: 900px;
+    height: 100vh;
+    color: #41644a;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .heuristic-container h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .heuristic-container h2 {
+    font-size: 2rem;
+  }
+
+  .heuristic-container p {
+    font-size: 1.5rem;
+  }
+
+  .heuristic-container img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .heuristic-container iframe {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .heuristic-task-detail {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .heuristic-container li {
+    font-size: 1.5rem;
+  }
+
+  .test-person-detail {
+    width: 100%;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .procedure-detail {
+    width: 100%;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+
+  .test-situation-toggle-button {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #41644a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .test-situation-toggle-button:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background-color: #e86a33;
+  }
+
+  .test-situation {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 20px;
+    color: #41644a;
+  }
+  
+  .test-situation-toggle-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
