@@ -54,11 +54,7 @@ return (
             <h2>Demo Video</h2>
             <iframe width="700" height="500" src="https://www.youtube.com/embed/WdT-MdglecQ?si=y05YNsOXdl-JY_mV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div className="hifi-details">
-        <a href="https://www.canva.com/design/DAGHSF_eouE/X2dajQ3ylcNJM57XaS2cvg/edit?utm_content=DAGHSF_eouE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-            <div className="pitch-slides">Pitch Slides</div>
-          </a>
-        </div>
+        
     </div>
   );
 };
