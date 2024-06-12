@@ -12,6 +12,8 @@ import Pov from "./Pov.jsx";
 import LofiPrototype from "./LofiPrototype";
 import MidfiPrototype from "./MidfiPrototype"
 import HeuristicEvaluation from "./HeuristicEvaluation"
+import HifiPrototype from "./HifiPrototype";
+import PitchSlide from "./PitchSlide";
 import "./styles.css";
 
 const App = () => {
@@ -32,6 +34,8 @@ const App = () => {
           <Route path="/lofi-prototype" element={<LofiPrototype />} />
           <Route path="/midfi-prototype" element={<MidfiPrototype />} />
           <Route path="/heuristic-evaluation" element={<HeuristicEvaluation />}/>
+          <Route path="/hi-fi" element={<HifiPrototype />} />
+          <Route path="/poster" element={<PitchSlide/>} />
         </Routes>
       </div>
     </HashRouter>

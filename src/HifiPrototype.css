@@ -1,0 +1,66 @@
+.hifi-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    align-items: center;
+    width: 70%;
+    max-width: 900px;
+    height: 100vh;
+    color: #41644a;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .hifi-container h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .hifi-container h2 {
+    font-size: 2rem;
+  }
+
+  .hifi-container p {
+    font-size: 1.5rem;
+  }
+
+  .hifi-container img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .hifi-container iframe {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .hifi-details {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .hifi-container li {
+    font-size: 1.5rem;
+  }
+
+  .hifi-container a {
+    text-decoration: none ;
+  }
+
+  .pitch-slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    color: #41644a;
+  }
+
+  .pitch-slides:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  }

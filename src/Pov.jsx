@@ -179,10 +179,7 @@ const Pov = () => {
             </div>
           </div>
           <div className="pov1-right">
-            <img
-              src="https://cdn.discordapp.com/attachments/1122937314671329452/1227299172965810289/eason3342_front_view_Pixar_animation_a_23-year-old_female_gradu_af35aff1-3f79-4fa5-9767-a578b77af509-removebg-preview.png?ex=6627e66c&is=6615716c&hm=99922ecd608e8f90d9e155f07a55c42ff452139dbe532c47b715e847b6f0321d&"
-              alt="pov1-icon"
-            />
+          <img src={`${process.env.PUBLIC_URL}/pictures/POV/pov1.png`} alt="pov1-icon" />
           </div>
         </div>
         {showPov1List && (
@@ -194,10 +191,7 @@ const Pov = () => {
         )}
         <div className="pov">
           <div className="pov2-left">
-            <img
-              src="https://cdn.discordapp.com/attachments/1122937314671329452/1227302240977682562/eason3342_front_view_Pixar_animation_3D_cartoon_Disney_Pixar_st_5fcf5588-f7d7-42e9-baff-66eef546d2a7-removebg-preview.png?ex=6627e948&is=66157448&hm=838a9945a64aa390c81e360fc1dc02ce3e4a1056d07b8712058995d13e73cb25&"
-              alt="pov2-icon"
-            />
+          <img src={`${process.env.PUBLIC_URL}/pictures/POV/pov2.png`} alt="pov2-icon" />
           </div>
           <div className="pov2-right">
             <h2>POV2</h2>
@@ -233,10 +227,7 @@ const Pov = () => {
             </div>
           </div>
           <div className="pov3-right">
-            <img
-              src="https://cdn.discordapp.com/attachments/1122937314671329452/1227304147498434600/eason3342_half_body_front_view_Pixar_animation_3D_cartoon_Disne_537f96b8-4f6f-4151-9aac-9ccf3d0a711c-removebg-preview.png?ex=6627eb0e&is=6615760e&hm=ce937a756356605e9a997a2367fbeea59e72740b06269655ce5dfa3fff300a3f&"
-              alt="pov3-icon"
-            />
+          <img src={`${process.env.PUBLIC_URL}/pictures/POV/pov3.png`} alt="pov3-icon" />
           </div>
         </div>
         {showPov3List && (

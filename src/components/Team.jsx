@@ -45,30 +45,21 @@ const Team = () => {
       </h1>
       <TeamMember delay={0}>
         <div className="team-member">
-          <img
-            src="https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/a42f1e83fdb6809384f2461670a1d81e227df05c.png"
-            alt="Team Member 1"
-          />
+        <img src={`${process.env.PUBLIC_URL}/pictures/members/member1.jpg`} alt="member1-image" />
           <h1>吳雨森</h1>
           <p>IEEM 1</p>
         </div>
       </TeamMember>
       <TeamMember delay={200}>
         <div className="team-member">
-          <img
-            src="https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/2b3f6ff00db7a1efae21d85cfb8995eaff2da8d8.png"
-            alt="Team Member 2"
-          />
+        <img src={`${process.env.PUBLIC_URL}/pictures/members/member2.jpg`} alt="member2-image" />
           <h1>楊子頤</h1>
           <p>CS 4</p>
         </div>
       </TeamMember>
       <TeamMember delay={400}>
         <div className="team-member">
-          <img
-            src="https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/1fab9d9b86c9071e3f10c14b7869e3ec338f1429.png"
-            alt="Team Member 3"
-          />
+        <img src={`${process.env.PUBLIC_URL}/pictures/members/member3.jpg`} alt="member3-image" />
           <h1>彭鈺婷</h1>
           <p>JITA 3</p>
         </div>

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/smartBottle/static/css/main.d84dc084.css",
-    "main.js": "/smartBottle/static/js/main.96d486ca.js",
+    "main.css": "/smartBottle/static/css/main.c277ff70.css",
+    "main.js": "/smartBottle/static/js/main.78b5eb96.js",
     "index.html": "/smartBottle/index.html",
-    "main.d84dc084.css.map": "/smartBottle/static/css/main.d84dc084.css.map",
-    "main.96d486ca.js.map": "/smartBottle/static/js/main.96d486ca.js.map"
+    "main.c277ff70.css.map": "/smartBottle/static/css/main.c277ff70.css.map",
+    "main.78b5eb96.js.map": "/smartBottle/static/js/main.78b5eb96.js.map"
   },
   "entrypoints": [
-    "static/css/main.d84dc084.css",
-    "static/js/main.96d486ca.js"
+    "static/css/main.c277ff70.css",
+    "static/js/main.78b5eb96.js"
   ]
 }

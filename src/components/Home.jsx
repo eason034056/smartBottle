@@ -41,10 +41,7 @@ const Home = () => {
             </animated.span>
           </animated.h1>
           <div className="circle"></div>
-          <img
-            src="https://www.cloveandtwine.com/cdn/shop/files/custom-ringo-water-bottle-30334545100888_1445x.png?v=1701113777"
-            alt="bottle"
-          />
+          <img src={`${process.env.PUBLIC_URL}/pictures/home-pic.png`} alt="bottle" />
         </div>
       </div>
     </div>

@@ -24,9 +24,6 @@ function Navbar() {
           <Link to="/concept-video">Concept Video</Link>
         </li>
         <li>
-          <Link to="/">Prototype</Link>
-        </li>
-        <li>
           <Link to="/documents">Documentation</Link>
         </li>
         <li>

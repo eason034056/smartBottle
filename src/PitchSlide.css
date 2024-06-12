@@ -1,0 +1,22 @@
+.pitch-slide-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    align-items: center;
+    width: 70%;
+    max-width: 900px;
+    height: 100vh;
+    color: #41644a;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .pitch-slide-container h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .pitch-slide-container h2 {
+    font-size: 2rem;
+  }
