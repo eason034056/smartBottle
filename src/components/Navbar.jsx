@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Smart Bottle</div>
+      <div className="logo">Water Buddy</div>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
           <Link to="/home">Home</Link>
